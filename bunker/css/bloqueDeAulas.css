@@ -1,0 +1,40 @@
+
+
+body{
+    margin:0;
+    background-color: rgb(201, 1, 1);
+}
+h1{
+    margin-bottom: 20px;
+    color: red;
+    text-align: center;
+    margin-top:40px
+}
+.gallery-container{
+    display:grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-auto-rows: 250px;
+    padding:200px;
+    grid-gap:35px;
+
+}
+
+.gallery__img{
+    width:100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 80px;
+}
+a{
+    font-size: 1,5em;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(247, 8, 8);
+    font-style: italic;
+    margin:20px;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+button{
+    margin-bottom:50px;
+}
